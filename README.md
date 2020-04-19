@@ -4,16 +4,16 @@ simple classifying analysis for 47 medical images.
 
 ## environment
 
-- Python 3.7.3
+- *Python 3.7.3*
 
 ### requirements
 
-listed in requirements.txt:
+listed in `requirements.txt`:
 
-- pyradiomics==3.0
-- numpy==1.18.0
-- matplotlib==3.1.2
-- scikit-learn==0.22
+- *pyradiomics==3.0*
+- *numpy==1.18.0*
+- *matplotlib==3.1.2*
+- *scikit-learn==0.22*
 
 ```shell
 pip3 install -r requirements.txt
@@ -22,15 +22,16 @@ pip3 install -r requirements.txt
 ## feature_extraction
 
 1. Put your radiomics data in `feature_extraction/image` & `feature_extraction/mask` 
-
 2. Edit `feature_extraction/input_images.csv` for your own radiomics data, refer to [pyradiomics](https://github.com/radiomics/pyradiomics)
 
-3. Run:
+- Run:
 
-4. ```shell
-   cd feature_extraction
-   bash feature_extraction.sh
-   ```
+  ```shell
+  cd feature_extraction
+  bash feature_extraction.sh
+  ```
+
+- Results in `feature_extraction/features_extracted.csv`
 
 ## data_processing
 
