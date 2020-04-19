@@ -8,12 +8,14 @@ simple classifying analysis for 47 medical images.
 
 ### requirements
 
-listed in `requirements.txt`:
+Listed in `requirements.txt`:
 
 - *pyradiomics==3.0*
 - *numpy==1.18.0*
 - *matplotlib==3.1.2*
 - *scikit-learn==0.22*
+
+Run if needed:
 
 ```shell
 pip3 install -r requirements.txt
@@ -31,11 +33,11 @@ pip3 install -r requirements.txt
   bash feature_extraction.sh
   ```
 
-- Results will show at `feature_extraction/features_extracted.csv`
+- Results will show in `feature_extraction/features_extracted.csv`
 
 ## data_processing
 
-- Doing the dimension reduction by using 3 methods: *PCA*, *TSNE*, *LDA*.
+- Doing the dimension reduction, respectively by using 3 methods: *PCA*, *TSNE*, *LDA*.
 
 - Run:
 
@@ -48,19 +50,19 @@ pip3 install -r requirements.txt
 
 ### PCA-2
 
-![](https://raw.githubusercontent.com/YuYuYuZero/medical_images_classifying/master/data_processing/PCA-2.jpg)
+![PCA-2](https://raw.githubusercontent.com/YuYuYuZero/medical_images_classifying/master/data_processing/PCA-2.jpg)
 
 ### TSNE-2
 
-![](https://raw.githubusercontent.com/YuYuYuZero/medical_images_classifying/master/data_processing/TSNE-2.jpg)
+![TSNE-2](https://raw.githubusercontent.com/YuYuYuZero/medical_images_classifying/master/data_processing/TSNE-2.jpg)
 
 ### LDA-1
 
-![](https://raw.githubusercontent.com/YuYuYuZero/medical_images_classifying/master/data_processing/LDA-1.jpg)
+![LDA-1](https://raw.githubusercontent.com/YuYuYuZero/medical_images_classifying/master/data_processing/LDA-1.jpg)
 
-As for the results, the third one has an outstanding performance. 
+As the results shown, the third one has an outstanding performance. 
 
-We can take the third processed data for a simple classifying.
+We'll take the third processed data for a simple classifying.
 
 ## simple_classifying
 
