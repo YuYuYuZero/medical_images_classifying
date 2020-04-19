@@ -31,7 +31,7 @@ pip3 install -r requirements.txt
   bash feature_extraction.sh
   ```
 
-- Results in `feature_extraction/features_extracted.csv`
+- Results will show at `feature_extraction/features_extracted.csv`
 
 ## data_processing
 
