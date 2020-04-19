@@ -22,7 +22,7 @@ pip3 install -r requirements.txt
 ## feature_extraction
 
 1. Put your radiomics data in `feature_extraction/image` & `feature_extraction/mask` 
-2. Edit `feature_extraction/input_images.csv` for your own radiomics data, refer to [pyradiomics](https://github.com/radiomics/pyradiomics)
+2. Edit `feature_extraction/input_images.csv` for your own radiomics data, referring to [pyradiomics](https://github.com/radiomics/pyradiomics)
 
 - Run:
 
